@@ -1,6 +1,11 @@
+{
+  "scripts": {
+  "test": "jest app.test.js"
+}
+}
 
 {
   "dependencies": {
     "inquirer": "^8.2.4"
   }
-}
+} 
