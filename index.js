@@ -42,7 +42,6 @@ const questions = async () => {
 
 
     
-    //  console.log(answers);
       // if manager selected, answer these specific question
       if (answers.role === "Manager") {
         const managerAns = await inquirer
@@ -124,7 +123,6 @@ async function promptQuestions() {
 promptQuestions();
 
 function createTeam () {
-  console.log("new guy", newStaffMemberData)
   fs.writeFileSync(
     "./output/index.html",
     generateTeam(newStaffMemberData),
